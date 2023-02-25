@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 10%;
+    font-family: 'Roboto', sans-serif;
+    background-color: grey;
+    padding: 1%;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-image: url(https://maxf1.net/wp-content/uploads/2020/06/Mercedes-F1-W11-black-edition-F1-2020-Photo-Daimler.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 40pt;
+}
+
+ul {
+    font-size: 140%;
+    list-style-type: "🏎️";
+}
+
+li {
+    padding: 5%;
+}

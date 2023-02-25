@@ -1,0 +1,18 @@
+table {
+    font-family: sans-serif;
+}
+td {
+    border: 1px solid grey;
+    color: white;
+    padding: 10px;
+}
+
+thead,
+tfoot {
+    background-color: grey;
+    color: #fff;
+}
+
+#second-section {
+    background-color: black;
+}

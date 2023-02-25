@@ -1,0 +1,60 @@
+.main-content {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+
+}
+
+.drivers, .team-director {
+    display: flex;
+    height: 31%;
+    border-style: solid;
+    border-color: grey;
+    width: 50%;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-self: center;
+    margin-bottom: 5%;
+}
+
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+}
+
+#hamilton, #russel{
+    margin: 2%;
+    display: flex;
+    flex-flow: column;
+    height: 30%;
+    width: 25%;
+
+}
+
+img {
+    border-style: solid;
+    border-width: 1%;
+    border-color: white;
+}
+
+.car-info {
+    display: flex;
+    background-color: black;
+    height: 31%;
+    border-style: solid;
+    border-color: grey;
+    width: 50%;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-self: center;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+}
